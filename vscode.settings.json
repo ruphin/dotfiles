@@ -20,6 +20,7 @@
   "workbench.statusBar.feedback.visible": false,
   "workbench.activityBar.visible": false,
   "window.titleBarStyle": "custom",
+  "window.zoomLevel": 1,
   "explorer.openEditors.visible": 0,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.check.npmIsInstalled": false
