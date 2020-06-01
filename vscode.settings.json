@@ -1,7 +1,9 @@
 {
   "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
   "editor.acceptSuggestionOnEnter": "off",
+  "editor.acceptSuggestionOnCommitCharacter": false,
   "editor.quickSuggestionsDelay": 100,
   "editor.snippetSuggestions": "top",
   "editor.multiCursorModifier": "ctrlCmd",
@@ -9,19 +11,34 @@
   "editor.tabSize": 2,
   "editor.minimap.showSlider": "always",
   "editor.occurrencesHighlight": false,
-  "editor.formatOnType": false,
   "editor.dragAndDrop": false,
   "editor.renderWhitespace": "boundary",
   "editor.scrollBeyondLastLine": false,
+  "editor.tokenColorCustomizations": {
+    "semanticHighlighting": false
+  },
   "workbench.colorTheme": "Monokai",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.iconTheme": "vs-minimal",
   "workbench.tips.enabled": false,
-  "workbench.statusBar.feedback.visible": false,
   "workbench.activityBar.visible": false,
-  "window.titleBarStyle": "custom",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
+  "window.titleBarStyle": "native",
   "explorer.openEditors.visible": 0,
+  "explorer.confirmDelete": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.check.npmIsInstalled": false
+  "typescript.check.npmIsInstalled": false,
+  "breadcrumbs.enabled": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.resolveGlobalModules": true,
+  "lit-plugin.rules.no-incompatible-type-binding": "off",
+  "timeline.excludeSources": []
 }
