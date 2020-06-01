@@ -14,8 +14,8 @@
   "editor.dragAndDrop": false,
   "editor.renderWhitespace": "boundary",
   "editor.scrollBeyondLastLine": false,
-  "editor.tokenColorCustomizations": {
-    "semanticHighlighting": false
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": false
   },
   "workbench.colorTheme": "Monokai",
   "workbench.startupEditor": "newUntitledFile",
@@ -23,7 +23,6 @@
   "workbench.tips.enabled": false,
   "workbench.activityBar.visible": false,
   "window.zoomLevel": 0,
-  "window.titleBarStyle": "native",
   "explorer.openEditors.visible": 0,
   "explorer.confirmDelete": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
